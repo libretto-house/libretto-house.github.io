@@ -1,0 +1,104 @@
+/* ===============================
+   Libretto house プライバシーポリシー用スタイル
+   =============================== */
+
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.8;
+  color: #333;
+  margin: 40px;
+  background-color: #fafafa;
+}
+
+h1, h2 {
+  color: #BE3455; /* ビバマゼンタ */
+}
+
+h1 {
+  font-size: 1.8em;
+  border-bottom: 3px solid #BE3455;
+  padding-bottom: 5px;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-top: 2.5em;
+  border-left: 6px solid #BE3455;
+  padding-left: 10px;
+}
+
+p {
+  margin: 0.8em 0;
+}
+
+ol, ul {
+  margin-left: 1.5em;
+  padding-left: 1em;
+}
+
+ol li, ul li {
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #BE3455;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 同意ボタン */
+.agree-button {
+  display: inline-block;
+  background-color: #BE3455;
+  color: #fff;
+  text-align: center;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.agree-button:hover {
+  background-color: #a72f4b;
+}
+
+/* スマートフォン対応 */
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  .container {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+}
